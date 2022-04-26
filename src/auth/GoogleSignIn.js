@@ -1,6 +1,6 @@
 import React from 'react';
 import { Auth } from 'aws-amplify';
-import btn from '../../assets/auth/btn_google_signin_dark_normal_web.png';
+import btn from '../assets/auth/btn_google_signin_dark_normal_web.png';
 const GoogleSignIn = () => {
 return (
 <button onClick={() => Auth.federatedSignIn({ provider:"Google" })}>

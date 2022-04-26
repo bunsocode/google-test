@@ -1,5 +1,5 @@
 import React from 'react';
-import GoogleSignIn from './auth/GoogleSignIn';
+import GoogleSignIn from '../auth/GoogleSignIn';
 import { Flex } from 'skylight-react';
 const Landing = () => {
 return (
